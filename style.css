@@ -1,0 +1,362 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+#nav {
+	min-height: 30px;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+
+#nav li {
+	float: right;
+	font-size: 12px;
+	margin: 15px 7px 15px 15px;
+	font-family: arial,sans-serif;
+	margin-top: 30px;
+}
+
+#nav li:first-child {
+	margin-right: 40px;
+}
+
+#nav ul li a {
+	color: #336699;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	color: white;
+}
+
+
+
+#container {
+	min-width: 980px;
+	width: 980px;	
+	margin: auto;
+}
+
+#header {
+	float: left;
+}
+
+
+h2 {
+	font-family: museo-slab-1, museo-slab-2;
+}
+
+#subhead {
+	padding: 20px 20px 40px 20px;
+
+}
+
+#subhead .dropdowns {
+	display: inline-block;
+	padding: 1em;
+}
+
+.dropdowns h3 {
+	display: inline-block;
+}
+
+
+
+.search {
+	background: white;
+	padding: 7 70 7 70px;
+	margin-left: 70px;
+	width: 100px;
+	font-family: arial,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-color: #C6C6C6;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 15px;
+	text-align: left;
+}
+
+.searchbutton {
+	background: #399;
+	padding: 7 20 7 20px;
+	margin-left: 10px;
+	width: 100px;
+	font-family: arial,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-color: #C6C6C6;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+}
+
+.whatwhere {
+	background: #399;
+	padding: 7 20 7 20px;
+	margin-left: 10px;
+	width: 100px;
+	font-family: arial,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-color: #C6C6C6;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+}
+
+
+#filter {
+	min-height: 60px;
+	margin: auto;
+	border: 1px green solid;
+	
+}
+
+#filter ul {
+	list-style: none;
+}
+
+
+#filter li {
+	float: left;
+	font-size: 12px;
+	margin: 15px 7px 15px 15px;
+	font-family: arial,sans-serif;
+	margin-top: 30px;
+}
+
+#filter li:first-child {
+	margin-left: 40px;
+}
+
+#filter ul li a {
+	color: #336699;
+	text-decoration: none;
+}
+
+#filter li a:hover {
+	color: white;
+}
+
+#body {
+	width: 980px;
+}
+
+#search {
+	width: 645px;
+	float: left;
+}
+
+
+
+.searchImages {
+	height: 100px;
+	width: 125px;
+	margin: 30px 10px 0px 20px;
+	float: left;
+	display: block;
+}
+
+
+.basics {
+	width: 250px;
+	word-wrap: break-word;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	display: inline;
+
+}
+
+.basics h2 {
+	font-size: 24px;
+	margin: 0px 0 5px 0;
+}
+
+.basics p {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.ratings {
+	float: left;
+	margin: 30px 10px 0 10px;
+}
+
+.ratings ul {
+	list-style: none;
+}
+
+.stars {
+	width: 100px;
+	height: 30px;
+
+}
+
+.time {
+	width: 30px;
+	height: 30px;
+
+}
+
+.dollars {
+	width: 30px;
+	height: 30px;
+}
+
+
+
+.dealpics {
+	width: 90px;
+	height: 70px;
+	float: left;
+	margin-top: 30px;
+	display: block;
+}
+
+#discovery {
+	width: 310px;
+	float: right;
+}
+
+#discovery hr {
+	margin-top: 10px;
+}
+
+#popular {
+	width: 100px;
+	float: left;
+}
+
+#discovery h3 {
+	font-size: 20px;
+	margin: 30px 0 20px 0;
+	color: #b8ba5b;
+}
+
+.more {
+	text-decoration: none;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#popularRestaurants {
+	width: 150px;
+	float: left;	
+}
+
+#popularRestaurants h4 {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.foodType {
+	float: right;
+	width: 150px;	
+}
+
+.foodType ul {
+	list-style: none;	
+}
+
+.foodType li a {
+	text-decoration: none;
+}
+
+.foodType li {
+	margin-bottom: 5px;
+}
+
+
+#recommended {
+	width: 150px;	
+	float: left;
+
+}
+
+#recommended h3 {
+	font-size: 20px;
+	margin: 30px 0 20px 0;
+	color: #b8ba5b;
+}	
+
+#recommended h4 {
+	font-size: 16px;
+	margin-bottom: 5px;
+	word-wrap: break-word;
+}
+
+#people {
+	width: 150px;	
+	float: left;
+
+}
+
+#people h4 {
+	font-size: 16px;
+	margin-bottom: 5px;
+	word-wrap: break-word;
+}
+
+#people a {
+	text-decoration: none;
+}
+
+#footer {
+
+}
+
+#footer ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 40px;
+	}
+
+#footer li {
+	float: right;	
+	margin: 10px 10px 10px 10px;
+	color: #999;
+	font-size: 12px;
+}
+
+#footer li:first-child {
+	margin-right: 400px;
+}
+
+#footer a {
+	color: #336699;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	color: #369;
+}
+
+
+
+
