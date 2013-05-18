@@ -28,7 +28,7 @@ body{
 	background-image: url(background.png); 
 	background-attachment: scroll;}
 
-#container, #search, #discovery {
+#container, #search, #discovery, #footer {
 	background-color: white;
 }
 
@@ -54,8 +54,9 @@ body{
 }
 
 #nav ul li a {
-	color: #336699;
+	color: #000000;
 	text-decoration: none;
+	font-weight: 1000;
 }
 
 #nav li a:hover {
@@ -77,8 +78,10 @@ body{
 }
 
 
-h2 {
+#header h2 {
 	font-family: museo-slab-1, museo-slab-2;
+	text-align: center;
+	font-size: 18px;	
 }
 
 
@@ -158,10 +161,10 @@ h2 {
 
 #filter li {
 	float: left;
-	font-size: 12px;
+	font-size: 16px;
 	margin: 15px 7px 15px 15px;
 	font-family: arial,sans-serif;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 #filter li:first-child {
@@ -201,7 +204,7 @@ h2 {
 	width: 250px;
 	word-wrap: break-word;
 	float: left;
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-top: 30px;
 	display: inline;
 
@@ -260,6 +263,8 @@ h2 {
 
 #discovery hr {
 	margin-top: 10px;
+	width: 300px;
+	margin-right:20px;
 }
 
 #popular {
@@ -280,18 +285,20 @@ h2 {
 }
 
 #popularRestaurants {
-	width: 150px;
-	float: left;	
+	width: 170px;
+	float: left;
+	margin-right: 10px;	
 }
 
 #popularRestaurants h4 {
-	font-size: 16px;
+	font-size: 14px;
 	margin-bottom: 5px;
 }
 
 .foodType {
-	float: right;
-	width: 150px;	
+	float: left;
+	width: 150px;
+
 }
 
 .foodType ul {
@@ -304,12 +311,14 @@ h2 {
 
 .foodType li {
 	margin-bottom: 5px;
+	font-size: 14px;
 }
 
 
 #recommended {
-	width: 180px;	
+	width: 170px;	
 	float: left;
+	margin-right: 10px;
 }
 
 
@@ -320,25 +329,27 @@ h2 {
 }	
 
 #recommended h4 {
-	font-size: 16px;
+	font-size: 14px;
 	margin-bottom: 5px;
 	word-wrap: break-word;
 }
 
 #people {
-	width: 180px;	
+	width: 170px;	
 	float: left;
+	margin-right: 10px;
 
 }
 
 #people h4 {
-	font-size: 16px;
+	font-size: 14px;
 	margin-bottom: 5px;
 	word-wrap: break-word;
 }
 
 #people a {
 	text-decoration: none;
+	font-size: 14px;
 }
 
 #footer {
