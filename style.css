@@ -29,7 +29,7 @@ body{
 	background-attachment: scroll;}
 
 #container, #search, #discovery, #footer {
-	background-color: white;
+	background-color: #FFFFFF;
 }
 
 #nav {
@@ -60,7 +60,7 @@ body{
 }
 
 #nav li a:hover {
-	color: white;
+	color: #FFFFFF;
 }
 
 
@@ -102,7 +102,7 @@ body{
 
 
 .search {
-	background: white;
+	background: #FFFFFF;
 	padding: 7 70 7 70px;
 	margin-left: 70px;
 	width: 100px;
@@ -127,7 +127,7 @@ body{
 	border-color: #C6C6C6;
 	border-width: 1px;
 	border-style: solid;
-	color: white;
+	color: #FFFFFF;
 }
 
 .whatwhere {
@@ -141,7 +141,7 @@ body{
 	border-color: #C6C6C6;
 	border-width: 1px;
 	border-style: solid;
-	color: white;
+	color: #FFFFFF;
 }
 
 
@@ -197,6 +197,7 @@ body{
 	margin: 30px 10px 0px 20px;
 	float: left;
 	display: block;
+	border: 1px #555;	
 }
 
 
@@ -352,29 +353,27 @@ body{
 	font-size: 14px;
 }
 
-#footer {
 
+#footer {
+	min-height: 30px;	
+	padding: 30px 20px 0 0;
+	background-color: #555;
 }
 
 #footer ul {
 	list-style: none;
-	text-align: center;
-	margin-top: 40px;
 	}
 
 #footer li {
-	float: right;	
-	margin: 10px 10px 10px 10px;
 	color: #999;
 	font-size: 12px;
+	float: right;
+	margin-right: 10px;
 }
 
-#footer li:first-child {
-	margin-right: 400px;
-}
 
 #footer a {
-	color: #336699;
+	color: #ffffff;
 	font-size: 12px;
 	text-decoration: none;
 }
