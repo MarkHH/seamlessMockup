@@ -20,6 +20,17 @@ time, mark, audio, video {
 }
 
 
+body.noScroll { 
+	background-image: url(background.png); 
+	background-attachment: fixed;
+}
+body{ 
+	background-image: url(background.png); 
+	background-attachment: scroll;}
+
+#container, #search, #discovery {
+	background-color: white;
+}
 
 #nav {
 	min-height: 30px;
@@ -61,12 +72,15 @@ time, mark, audio, video {
 
 #header {
 	float: left;
+	margin: 10px 0 0 10px;
+
 }
 
 
 h2 {
 	font-family: museo-slab-1, museo-slab-2;
 }
+
 
 #subhead {
 	padding: 20px 20px 40px 20px;
@@ -132,6 +146,8 @@ h2 {
 	min-height: 60px;
 	margin: auto;
 	border: 1px green solid;
+	margin: 10px 20px 0 20px;
+	border-radius: 20px;
 	
 }
 
@@ -158,7 +174,7 @@ h2 {
 }
 
 #filter li a:hover {
-	color: white;
+	color: orange;
 }
 
 #body {
@@ -238,7 +254,7 @@ h2 {
 }
 
 #discovery {
-	width: 310px;
+	width: 335px;
 	float: right;
 }
 
@@ -292,10 +308,10 @@ h2 {
 
 
 #recommended {
-	width: 150px;	
+	width: 180px;	
 	float: left;
-
 }
+
 
 #recommended h3 {
 	font-size: 20px;
@@ -310,7 +326,7 @@ h2 {
 }
 
 #people {
-	width: 150px;	
+	width: 180px;	
 	float: left;
 
 }
